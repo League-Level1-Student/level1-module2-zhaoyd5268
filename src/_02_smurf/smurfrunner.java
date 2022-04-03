@@ -7,7 +7,12 @@ public static void main(String[] args) {
 	smurf.eat();
 	smurf.getName();
 	Smurf papasmurf = new Smurf("papa smurf");
-	papasmurf.eat();
-
+	papasmurf.getName();
+	papasmurf.getHatColor();
+	papasmurf.isGirlOrBoy();
+	Smurf smurfette = new Smurf("smurfette");
+	smurfette.getName();
+	smurfette.getHatColor();
+	smurfette.isGirlOrBoy();
 }
 }
